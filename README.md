@@ -1,3 +1,5 @@
+[![launch make setup/test/lint](https://github.com/ievgesha1983/hexlet-ci-app/actions/workflows/launchmake.yml/badge.svg)](https://github.com/ievgesha1983/hexlet-ci-app/actions/workflows/launchmake.yml)
+
 # Example app for CI Hexlet course
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
