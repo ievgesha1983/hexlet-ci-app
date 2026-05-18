@@ -1,0 +1,13 @@
+name: launch make setup/test/lint
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: run make setup
+        run: make setup
+      - name: run make test
+        run: make test
+      - name: run make lint
+        run: make lint
